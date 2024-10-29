@@ -33,7 +33,7 @@ class EditContact extends React.Component {
     update = (e) => {
         e.preventDefault();
 
-        const { name, phoneNumber, department, photo, tableData } = this.state;
+        const { name, phoneNumber, department, photo } = this.state;
 
         if (name === "") {
             alert("Please provide a name");
