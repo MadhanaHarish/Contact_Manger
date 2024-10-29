@@ -15,7 +15,7 @@ connectDB();
 
 app.use(cors({ origin: true, Credentials: true }));
 app.use(express.json());
-app.use("/api/contacts", contacts);
+app.use("https://contact-manger-1.onrender.com/api/contacts", contacts);
 
 __dirname = path.resolve();
 
