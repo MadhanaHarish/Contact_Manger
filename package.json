@@ -21,7 +21,6 @@
   "main": "index.js",
   "name": "contact-manager",
   "scripts": {
-    "deploy": "gh-pages -d build",
     "format": "prettier --write .",
     "start": "nodemon index.js",
     "dev": "concurrently \"npm run start\" \"cd client && npm start\"",
